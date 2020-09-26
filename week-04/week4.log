@@ -1,0 +1,40 @@
+Script started on 2020-09-28 05:20:05+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="110" LINES="24"]
+Create Working Directories
+Creating /home/llewellyn/Linux Programming I/1_Week1_1
+Creating /home/llewellyn/Linux Programming I/1_Week2_1
+Creating /home/llewellyn/Linux Programming I/1_Week3_1
+Creating /home/llewellyn/Linux Programming I/1_Week4_1
+Creating /home/llewellyn/Linux Programming I/1_Week5_1
+Creating /home/llewellyn/Linux Programming I/1_Week6_1
+Creating /home/llewellyn/Linux Programming I/1_Week7_1
+Creating /home/llewellyn/Linux Programming I/2_Week8_1
+Creating /home/llewellyn/Linux Programming I/2_Week9_1
+Creating /home/llewellyn/Linux Programming I/2_Week10_1
+Creating /home/llewellyn/Linux Programming I/2_Week11_1
+Creating /home/llewellyn/Linux Programming I/2_Week12_1
+Creating /home/llewellyn/Linux Programming I/2_Week13_1
+Creating /home/llewellyn/Linux Programming I/2_Week14_1
+Creating /home/llewellyn/Linux Programming I/2_Week15_1
+Change your prompt variable to display the current working directory (pwd)
+Set the history to be 100 commands
+Change to working directory /home/llewellyn/Linux Programming I/1_Week4_1
+Set an alias to allow typing h to list the history of commands.
+Set an alias for listlong to be ls –latr.
+Set an alias named dir to be ls -aF | more
+Set an alias named del to be "rm -i".
+Display the values of your TERM and HOME environment variables to the screen.
+TERM = xterm-256color
+HOME = /home/llewellyn
+When the IGNOREEOF=4 the means pressing CTRL-D four times will only close my session.
+Write bash man page to /home/llewellyn/Linux Programming I/1_Week4_1/bash.txt
+Write csh man page to /home/llewellyn/Linux Programming I/1_Week4_1/csh.txt
+Write korn/ksh man page to /home/llewellyn/Linux Programming I/1_Week4_1/korn.txt
+list the number of files in /usr/local/bin
+~/ls_output is in the current user directory
+On my PC there is 1385 files in this directory
+There is 179 prossess running right now.
+My whole script demostrates the >> and >
+The >> adds a new line to a file
+The > replace the whole file with the new given values
+
+Script done on 2020-09-28 05:20:05+02:00 [COMMAND_EXIT_CODE="0"]
