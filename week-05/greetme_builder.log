@@ -1,0 +1,70 @@
+Script started on 2020-10-02 03:57:35+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="49"]
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo '#!/bin/bash' > greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo '#/-------------------------------------------------------------------------------------------------------
+> #
+> #   @version1.0.0
+> #   @build2nd Oct, 2020
+> #   @packageSDEV-415-81: Linux/ Unix Programming I - Fall 2020 (2020FA)
+> #   @sub-packageWeek 5: Assignment - greetme
+> #   @authorLlewellyn van der Merwe <https://github.com/Llewellynvdm>
+> #   @copyrightCopyright (C) 2020. All Rights Reserved
+> #   @licenseGNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
+> #
+> #/--------------------------------------------------------------------------------------------------------' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo '
+> 
+> # 1.  Write a bash script called greetme that will do the following:
+> #   a.  Contain a comment section with your name, the name of this script, and the purpose of this script.
+> #   b.  Greet the user (using the correct environment variable)
+> echo "Hi, $USER"
+> 
+> #   c.  Print the date and the time' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo -n "datetime=" >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo -n '$' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo "(date '+%d/%m/%Y %H:%M:%S');" >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo 'echo "$datetime"
+> 
+> #   d.  Print the value of the TERM, PATH, and HOME variables
+> echo "$TERM"
+> echo "$PATH"
+> echo "$HOME"
+> 
+> #   e.  Print Please, could you loan me $50.00?' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo -n "echo 'Please, could you loan me " >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo -n '$' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo -n "50.00?'" >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo '
+> 
+> #   f.  Tell the user Good-bye
+> echo "Good-bye, $USER"
+> 
+> # Make sure your script is executable. (chmod +x greetme)
+> chmod +x greetme
+> ' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo '
+> # 2.  Answer the following question:
+> #   What was the first line of your script?  Why do you need this line? ' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ echo '
+> # The first line was #!/bin/bash
+> 
+> # This #! is called the "hash-bang", "she-bang" or "sha-bang"
+> # and the /bin/bash is the standard location/path to the Bourn shell
+> 
+> # When the file is run as an executable, this line tells the interactive shell 
+> # what kind of interpreter to run for this file, and where it can be found,
+> # but should you run the file as "bash greetme.sh", the first line is ignored.
+> ' >> greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ chmod +x greetme
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ ./greetme
+Hi, llewellyn
+02/10/2020 03:59:12
+xterm-256color
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+/home/llewellyn
+Please, could you loan me $50.00?
+Good-bye, llewellyn
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ ./greetme > greetme_output 
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ exit
+exit
+
+Script done on 2020-10-02 03:59:34+02:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,13 @@
+Script started on 2020-10-02 03:53:07+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="49"]
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ exit./greetme
+Hi, llewellyn
+02/10/2020 03:53:10
+xterm-256color
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+/home/llewellyn
+Please, could you loan me $50.00?
+Good-bye, llewellyn
+]0;llewellyn@micron: ~/Linux Programming I/1_Week5_1[01;32mllewellyn@micron[00m:[01;34m~/Linux Programming I/1_Week5_1[00m$ exit
+exit
+
+Script done on 2020-10-02 03:53:16+02:00 [COMMAND_EXIT_CODE="0"]

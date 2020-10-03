@@ -1,0 +1,50 @@
+#!/bin/bash
+#/-------------------------------------------------------------------------------------------------------
+#
+#   @version		1.0.0
+#   @build		2nd Oct, 2020
+#   @package		SDEV-415-81: Linux/ Unix Programming I - Fall 2020 (2020FA)
+#   @sub-package	Week 5: Assignment - greetme
+#   @author		Llewellyn van der Merwe <https://github.com/Llewellynvdm>
+#   @copyright		Copyright (C) 2020. All Rights Reserved
+#   @license		GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
+#
+#/--------------------------------------------------------------------------------------------------------
+
+
+# 1.  Write a bash script called greetme that will do the following:
+#   a.  Contain a comment section with your name, the name of this script, and the purpose of this script.
+#   b.  Greet the user (using the correct environment variable)
+echo "Hi, $USER"
+
+#   c.  Print the date and the time
+datetime=$(date '+%d/%m/%Y %H:%M:%S');
+echo "$datetime"
+
+#   d.  Print the value of the TERM, PATH, and HOME variables
+echo "$TERM"
+echo "$PATH"
+echo "$HOME"
+
+#   e.  Print Please, could you loan me $50.00?
+echo 'Please, could you loan me $50.00?'
+
+#   f.  Tell the user Good-bye
+echo "Good-bye, $USER"
+
+# Make sure your script is executable. (chmod +x greetme)
+chmod +x greetme
+
+
+# 2.  Answer the following question:
+#   What was the first line of your script?  Why do you need this line? 
+
+# The first line was #!/bin/bash
+
+# This #! is called the "hash-bang", "she-bang" or "sha-bang"
+# and the /bin/bash is the standard location/path to the Bourn shell
+
+# When the file is run as an executable, this line tells the interactive shell 
+# what kind of interpreter to run for this file, and where it can be found,
+# but should you run the file as "bash greetme.sh", the first line is ignored.
+
