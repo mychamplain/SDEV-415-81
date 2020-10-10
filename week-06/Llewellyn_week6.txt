@@ -1,0 +1,77 @@
+# Week 6: Assignment - Regular Expressions
+# by Llewellyn van der Merwe
+
+1) NOTATION:  /Llewellyn/ OR /[Ll]lewellyn/
+     TESTER:  hello 'Llewellyn? hello
+        SED:  echo "hello 'Llewellyn? hello Llewellyn" | sed 's/Llewellyn/xxxxx/'
+     RESULT:  hello 'xxxxx? hello Llewellyn
+        SED:  echo "hello 'Llewellyn? hello llewellyn" | sed 's/[Ll]lewellyn/xxxxx/g'
+     RESULT:  hello 'xxxxx? hello xxxxx
+
+2) NOTATION:  /Th[ea]n/
+     TESTER:  Then vs Than
+        SED:  echo "Then vs Than" | sed 's/Th[ea]n/xxxxx/g'
+     RESULT:  xxxxx vs xxxxx
+
+3) NOTATION:  /yes\|no/ OR->ERE /yes|no/
+     TESTER:  yes and no
+        SED:  echo "yes and no" | sed 's/yes\|no/xxxxx/g'
+     RESULT:  xxxxx and xxxxx
+
+4) NOTATION:  /df\+/ OR->ERE /df+/
+     TESTER:  key dfffffff and more
+        SED:  echo "key dfffffff and more" | sed 's/df\+/xxxxx/g'
+     RESULT:  key xxxxx and more
+
+5) NOTATION:  /[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]/ (just structure, not truly valid)
+     TESTER:  856-45-6789
+        SED:  echo "856-45-6789" | sed 's/[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]/xxx-xx-xxxx/g'
+     RESULT:  xxx-xx-xxxx
+
+6) NOTATION:  /Mc\w\+/ OR->ERE /Mc\w+/
+     TESTER:  Mcarthur Williams Mccallister Mano McKay McGoff
+        SED:  echo "Mcarthur Williams Mccallister Mano McKay McGoff" | sed 's/Mc\w\+/xxxx/g'
+     RESULT:  xxxx Williams xxxx Mano xxxx xxxx
+     
+7) NOTATION:  /\w\+\.cc\b\|\w\+\.c\b/ OR /\w\+\.cc\>\|\w\+\.c\>/ OR->ERE /\w+\.cc\b|\w+\.c\b/ 
+     TESTER:  main.c header.h class.cc classheader.h more.cpp
+        SED:  echo "main.c header.h class2.cc classheader.h more.cpp" | sed 's/\w\+\.cc\b\|\w\+\.c\b/xxx.x/g'
+     RESULT:  xxx.x header.h xxx.x classheader.h more.cpp
+   
+   TO REALLY FIND THE FILES
+   find -regex ".*\.\(cc\|c\)"
+
+// first try....
+8) NOTATION:  /\b(?:\w*?[aeiou]){2}\w*\b/
+     TESTER:  this, jjjakkkollllu, akkkku, jallekkillllu, works
+       PERL:  echo "this, jjjakkkollllu, akkkku, jallekkillllu, works" | perl -pe 's/\b(?:\w*?[aeiou]){2}\w*\b/xxx/g'
+     RESULT:  this, xxx, xxx, xxx, works
+        URL:  https://regex101.com/r/l8crv5/2
+        URL:  https://extendsclass.com/regex/acf86eb
+
+// hundredth try....
+8) NOTATION:  /\b\([aeiou]\?\w\+[aeiou]\?\)\?\([aeiou]\w\+[aeiou]\)\+\([aeiou]\?\w\+[aeiou]\?\)\?\b/ 
+               OR->ERE
+              /\b([aeiou]?\w+[aeiou]?)?([aeiou]\w+[aeiou])+([aeiou]?\w+[aeiou]?)?\b/
+     TESTER:  this, jjjakkkollllu, akkkku, jallekkillllu, works
+        SED:  echo "this, jjjakkkollllu, akkkku, jallekkillllu, works" | sed 's/\b\([aeiou]\?\w\+[aeiou]\?\)\?\([aeiou]\w\+[aeiou]\)\+\([aeiou]\?\w\+[aeiou]\?\)\?\b/xxx/g'
+     RESULT:  this, xxx, xxx, xxx, work
+        URL:  https://extendsclass.com/regex/25420a2
+
+9) NOTATION:  /\bb\w.\?b\b/ OR->ERE /\bb\w.?b\b/
+     TESTER:  bob bulb ben bam beeb bash baob
+        SED:  echo "bob bulb ben bam beeb bash baob" | sed 's/\bb\w.\?b\b/xxxx/g'
+     RESULT:  xxxx xxxx ben bam xxxx bash xxxx
+
+10) NOTATION:  /x+y+/ OR->BRE /x\+y\+/
+      TESTER:  xxxyyy xyyy xxxy xandy xtoy
+         SED:  echo "xxxyyy xyyy xxxy xandy xtoy" | sed 's/x\+y\+/zzzzz/g'
+      RESULT:  zzzzz zzzzz zzzzz xandy xtoy
+
+11) NOTATION:  /[a-f]z?/ OR->BRE /[a-f]z?/
+      TESTER:  az fz zr zw
+         SED:  echo "az fz zr zw" | sed 's/[a-f]z\?/xx/g'
+      RESULT:  xx xx zr zw
+         SED:  echo "a f zr zw" | sed 's/[a-f]z\?/xx/g'
+      RESULT:  xx xx zr zw
+
