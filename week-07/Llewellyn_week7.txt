@@ -1,0 +1,33 @@
+# Week 7: Assignment - 'datebook' file
+# by Llewellyn van der Merwe
+
+1) fgrep 'San' datebook.txt
+
+2) grep -E '([^a-Z]|^)[J]\w+[[:space:]][[:upper:]]\w+' datebook.txt
+
+3) grep '700$' datebook.txt
+
+4) fgrep -v '834' datebook.txt
+
+5) grep -E '([^0-9]|^)12/([1-9]|[1-2][0-9]|0[1-9]|3[01])/[0-9][0-9]([^0-9]|$)' datebook.txt
+   grep -E '([^0-9]|^)12/([1-9]|[1-2][0-9]|0[1-9]|3[01])/[[:digit:]]{2}([^0-9]|$)' datebook.txt
+   # for 4 digit years (as well)
+   grep -E '([^0-9]|^)12/([1-9]|[1-2][0-9]|0[1-9]|3[01])/([0-9][0-9]|[0-9][0-9][0-9][0-9])([^0-9]|$)' datebook.txt
+   grep -E '([^0-9]|^)12/([1-9]|[1-2][0-9]|0[1-9]|3[01])/([[:digit:]]{4}|[[:digit:]]{2})([^0-9]|$)' datebook.txt
+
+6) grep -E '([^0-9]|^)408([[:punct:]]| )?[0-9][0-9][0-9]([[:punct:]]| )?[0-9][0-9][0-9][0-9]([^0-9]|$)' datebook.txt
+   grep -E '([^0-9]|^)408([[:punct:]]| )?[[:digit:]]{3}([[:punct:]]| )?[[:digit:]]{4}([^0-9]|$)' datebook.txt
+
+7) grep -E '[[:upper:]][[:lower:]]{4},[[:space:]][[:upper:]]' datebook.txt
+   grep -E '[A-Z][[:lower:]]{4}, [A-Z]' datebook.txt
+   grep '[A-Z][a-z][a-z][a-z][a-z], [A-Z]($|[^A-Z])' datebook.txt
+
+8) grep -E '[A-Z]\w+ [k|K]\w+' datebook.txt
+   grep -E '[[:upper:]]\w+[[:space:]][k|K]\w+' datebook.txt
+
+9) grep -En '([^0-9]|^)[[:digit:]]{6}($|[^0-9])' datebook.txt
+
+10) fgrep -i 'lincoln' datebook.txt
+    grep -i 'lincoln' datebook.txt
+    grep '[l|L]incoln' datebook.txt
+
