@@ -1,0 +1,26 @@
+# Week 8: Assignment - Modifying 'datebook' file
+# by Llewellyn van der Merwe
+
+1) sed -i 's/\bJon\b/Jonathan/g' datebook.txt
+
+2) sed -i -e '1,3d' datebook.txt
+
+3) sed -n '5,10'p datebook.txt
+
+4) sed -i '/Lane/d' datebook.txt
+
+5) grep -E '(([^0-9]|^)12/([1-9]|[1-2][0-9]|0[1-9]|3[01])|([^0-9]|^)11/([1-9]|[1-2][0-9]|0[1-9]|30))/([0-9][0-9]|[0-9][0-9][0-9][0-9])([^0-9]|$)' datebook.txt
+
+6) sed -i 's/^Fred.*/&***/g' datebook.txt
+
+7) sed -E -i 's/([^a-Z]|^)Jose([[:space:]][[:upper:]]\w+)(.*)?/JOSE HAS RETIRED/g' datebook.txt # just the line where Jose is a name
+   sed -E -i 's/(.*)?Jose(.*)?/JOSE HAS RETIRED/g' datebook.txt # all lines containing Jose
+
+8) sed -E -i '/([^a-Z]|^)Popeye[[:space:]][[:upper:]]\w+/ s/([^0-9]|^)(1[0-2]|[1-9])\/([1-2]?[0-9]|3[01])\/([0-9][0-9])([^0-9]|$)/\111\/14\/46\5/' datebook.txt
+
+9) sed -i '/^$/d' datebook.txt
+
+10.a) mysedscript.sh
+      sudo chmod +x mysedscript.sh
+      ./mysedscript.sh datebook.txt
+10.b) sed -E -i -f script.sed datebook.txt
