@@ -1,0 +1,5 @@
+# Week 9/10: Assignment - Prompts, Jobs, Directories, Command Lines, and Variables
+# by Llewellyn van der Merwe
+
+1) The /etc/profile and ~/.bash_profile is used to run commands that are profile related. The /etc/profile is the global default for all profiles and ~/.bash_profile is the current users overide. So quoting directly from the BASH man page:
+	When bash is invoked as an interactive login shell, or as a non-interactive shell with the --login option, it first reads and executes commands from the file /etc/profile, if that  file  ex‐ists.   After  reading  that file, it looks for ~/.bash_profile, ~/.bash_login, and ~/.profile, in that order, and reads and executes commands from the first one that exists and is readable. The --noprofile option may be used when the shell is started to inhibit this behavior.

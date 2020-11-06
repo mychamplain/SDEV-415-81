@@ -1,0 +1,249 @@
+Script started on 2020-11-09 06:52:00+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="48"]
+]0;llewellyn@micron: ~/Desktop/Linux Programming I/2_Week10_1[01;32mllewellyn@micron[00m:[01;34m~/Desktop/Linux Programming I/2_Week10_1[00m$ nano ~/.bash_profile
+[?2004h[?1049h[22;0;0t[1;48r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[46;95H(B[0;7m[ Reading... ](B[m[46;94H(B[0;7m[ Read 12 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                                           /home/llewellyn/.bash_profile                                                                                     [1;202H(B[m
+[47d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[47;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous    (B[0;7m^B(B[m Back[47;177H(B[0;7m^◀(B[m Prev Word
+[48d(B[0;7m^X(B[m Exit[48;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[48;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[48;161H(B[0;7m^F(B[m Forwards     (B[0;7m^▶(B[m Next Word
+[46d[2d[39;49m[36m# Set custom terminal prompt (fun)
+[3d[32mexport[39m(B[m PS1[32m=(B[0;1m[33m"\[\e[1;33m\]\[\016\]vdm\[\017\]-(\[\e[34;1m\]\u@\h\[\e[1;33m\])-(\[\e[34;1m\]\j\[\e[1;33m\])-(\[\e[34;1m\]\@ \d\[\e[1;33m\])->\[\e[1;33m\]\n\[\016\]path\[\017\]-(\[\[\e[32;1m\]\w\[\e[1;33m\][39m(B[0;7m>[4;1H(B[0m[36m# export PS1=(B[0;1m[33m"[\t \w] "
+[5d(B[0m[36m# set a greeting to the USER
+[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Welcome $USER"
+[7d(B[0m[36m# add user home path
+[8d[32mcase[39m(B[m (B[0;1m[33m":${PATH:=$HOME}:"[39m(B[m [32min[9;5H[39m(B[m*[32m:(B[0;1m[33m"$HOME"(B[0m[32m:[39m(B[m*[32m)[39m(B[m  [32m;;[10;5H[39m(B[m*[32m)[39m(B[m PATH[32m=(B[0;1m[33m"$HOME:$PATH"[39m(B[m  [32m;;
+[11desac
+[12d[36m# add erase to the Backspace
+[13d[39m(B[mstty erase ^?
+[2d[?12l[?25h[?25l[46d[J[48d[?12l[?25h[48;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;llewellyn@micron: ~/Desktop/Linux Programming I/2_Week10_1[01;32mllewellyn@micron[00m:[01;34m~/Desktop/Linux Programming I/2_Week10_1[00m$ 
+[K]0;llewellyn@micron: ~/Desktop/Linux Programming I/2_Week10_1[01;32mllewellyn@micron[00m:[01;34m~/Desktop/Linux Programming I/2_Week10_1[00m$ 
+[K]0;llewellyn@micron: ~/Desktop/Linux Programming I/2_Week10_1[01;32mllewellyn@micron[00m:[01;34m~/Desktop/Linux Programming I/2_Week10_1[00m$ source ~/.bash_profile
+Welcome llewellyn
+[1;33mvdm-([34;1mllewellyn@micron[1;33m)-([34;1m0[1;33m)-([34;1m06:53 AM Mon Nov 09[1;33m)->[1;33m
+
+path-([32;1m~/Desktop/Linux Programming I/2_Week10_1[1;33m)->[1;33m
+
+details-([32;1m7 files, 352Kb[1;33m)->[1;33m
+
+ $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0m
+[K $ [0mnano ~/.p[Kbash_profile
+[?2004h[?1049h[22;0;0t[1;50r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[48;44H(B[0;7m[ Reading... ](B[m[48;43H(B[0;7m[ Read 12 lines ](B[m[H(B[0;7m  GNU nano 4.8                        /home/llewellyn/.bash_profile                                  [1;100H(B[m
+[49d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[50d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[48d[2d[39;49m[36m# Set custom terminal prompt (fun)
+[3d[32mexport[39m(B[m PS1[32m=(B[0;1m[33m"\[\e[1;33m\]\[\016\]vdm\[\017\]-(\[\e[34;1m\]\u@\h\[\e[1;33m\])-(\[\e[34;1m\]\j\[\e[1;33[39m(B[0;7m>[4;1H(B[0m[36m# export PS1=(B[0;1m[33m"[\t \w] "
+[5d(B[0m[36m# set a greeting to the USER
+[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Welcome $USER"
+[7d(B[0m[36m# add user home path
+[8d[32mcase[39m(B[m (B[0;1m[33m":${PATH:=$HOME}:"[39m(B[m [32min[9;5H[39m(B[m*[32m:(B[0;1m[33m"$HOME"(B[0m[32m:[39m(B[m*[32m)[39m(B[m  [32m;;[10;5H[39m(B[m*[32m)[39m(B[m PATH[32m=(B[0;1m[33m"$HOME:$PATH"[39m(B[m  [32m;;
+[11desac
+[12d[36m# add erase to the Backspace
+[13d[39m(B[mstty erase ^?
+[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[1;92H(B[0;7mModified(B[m
+[3d[36m#export PS1=(B[0;1m[33m"\[\e[1;33m\]\[\016\]vdm\[\017\]-(\[\e[34;1m\]\u@\h\[\e[1;33m\])-(\[\e[34;1m\]\j\[\e[1;
+[C[39m(B[m[?12l[?25h[?25l[36m export PS1=(B[0;1m[33m"\[\e[1;33m\]\[\016\]vdm\[\017\]-(\[\e[34;1m\]\u@\h\[\e[1;33m\])-(\[\e[34;1m\]\j\[\e[1;[3G[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[1P[?12l[?25h[?25l[32mexport[39m(B[m PS1[32m=[39m(B[m[1P
+[?12l[?25h[?25l[3;47r[47;1H
+[1;50r[3;1H(B[0;7m<(B[0;1m[33mal //')b\[\e[1;33m\])->\[\e[1;33m\]\n\[\016\] \[\017\]$ \[\e[0m\]"(B[0m[36mexport PS1=(B[0;1m[33m"[\t \w] "[3;68H[39m(B[m[?12l[?25h[?25l7[4;47r8
+[4dM[1;50r[3;1H[36m# export PS1=(B[0;1m[33m"\[\e[1;33m\]\[\016\]vdm\[\017\]-(\[\e[34;1m\]\u@\h\[\e[1;33m\])-(\[\e[34;1m\]\j\[\e[1;[39m(B[0;7m>[4;1H(B[0m[32mexport[39m(B[m PS1[32m=(B[0;1m[33m"[\t \w] "
+[39m(B[m[?12l[?25h[?25l[48d(B[0;7mSave modified buffer?                                                                                [49;1H Y(B[m Yes[K
+[50d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[48;23H[?12l[?25h[?25l
+[49d(B[0;7m^G(B[m Get Help[49;26H(B[0;7mM-D(B[m DOS Format[49;51H(B[0;7mM-A(B[m Append[49;76H(B[0;7mM-B(B[m Backup File
+[50d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[50;51H(B[0;7mM-P(B[m Prefix[50;76H(B[0;7m^T(B[m To Files
+[48d(B[0;7mFile Name to Write: /home/llewellyn/.bash_profile
+(B[m[48;50H[?12l[?25h[?25l[43G[1K (B[0;7m[ Writing... ](B[m[K[1;92H(B[0;7m        (B[m[48;42H(B[0;7m[ Wrote 12 lines ](B[m
+[J[50d[?12l[?25h[50;1H[?1049l[23;0;0t
+[?1l>[?2004l[1;33mvdm-([34;1mllewellyn@micron[1;33m)-([34;1m0[1;33m)-([34;1m06:56 AM Mon Nov 09[1;33m)->[1;33m
+
+path-([32;1m~/Desktop/Linux Programming I/2_Week10_1[1;33m)->[1;33m
+
+details-([32;1m7 files, 356Kb[1;33m)->[1;33m
+
+ $ [0mnano ~/.bash_profile
+[C[C[C[2@source[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Welcome llewellyn
+[06:56:27 ~/Desktop/Linux Programming I/2_Week10_1] jobs -r
+[06:57:44 ~/Desktop/Linux Programming I/2_Week10_1] jobs -r[Ks
+[06:57:51 ~/Desktop/Linux Programming I/2_Week10_1] mkdir wildcards
+[06:58:43 ~/Desktop/Linux Programming I/2_Week10_1] cd wildcards/
+[06:58:46 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] touch ab abc a1 a2 a3 all a12 ba ba.1 ba.2 filex filey AbC ABC ABc3 abc
+[06:58:57 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls -la
+total 8
+drwxrwx--- 1 root vboxsf 4096 Nov  9 06:58 [0m[01;34m.[0m
+drwxrwx--- 1 root vboxsf 4096 Nov  9 06:58 [01;34m..[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32ma1[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32ma12[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32ma2[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32ma3[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mab[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mabc[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mAbC[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mABC[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mABc3[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mall[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mba[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mba.1[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mba.2[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mfilex[0m
+-rwxrwx--- 1 root vboxsf    0 Nov  9 06:58 [01;32mfiley[0m
+[06:59:02 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls -la a*
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [0m[01;32ma1[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma12[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma2[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma3[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mab[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mabc[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mall[0m
+[06:59:19 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls -la *[[:digit:]]
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [0m[01;32ma1[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma12[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma2[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma3[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mABc3[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mba.1[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mba.2[0m
+[06:59:27 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls -la [A-a]*
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [0m[01;32ma1[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma12[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma2[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma3[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mab[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mabc[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mAbC[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mABC[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mABc3[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mall[0m
+[06:59:34 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls -la *\.[0-9]
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [0m[01;32mba.1[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mba.2[0m
+[06:59:41 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls -la *[x-y]
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [0m[01;32mfilex[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mfiley[0m
+[06:59:48 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls -la {*[a-z],*[A-Z],*[[:digit:]]}
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [0m[01;32ma1[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma12[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma2[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32ma3[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mab[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mabc[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mAbC[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mABC[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mABc3[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mall[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mba[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mba.1[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mba.2[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mfilex[0m
+-rwxrwx--- 1 root vboxsf 0 Nov  9 06:58 [01;32mfiley[0m
+[06:59:56 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] ls > lsfile
+[07:00:12 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] date >> lsfile
+[07:00:19 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] who >> lsfile 
+[07:00:26 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] cat lsfile 
+a1
+a12
+a2
+a3
+ab
+abc
+AbC
+ABC
+ABc3
+all
+ba
+ba.1
+ba.2
+filex
+filey
+lsfile
+Mon 09 Nov 2020 07:00:19 AM CAT
+llewellyn :0           2020-11-09 03:50 (:0)
+[07:00:32 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] find ../ -type d 1> found 2> found.errs 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ks
+[07:00:51 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] set dogs cats birds fish
+[07:01:15 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] echo “$@”
+“dogs cats birds fish”
+[07:01:27 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] echo “$@”[K[1P$@"$@[C[C"
+dogs cats birds fish
+[07:01:35 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] $3e$3c$3h$3o$3 $3
+birds
+[07:01:45 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] echo '$#"[K"[1P$#"[1P$#" $#""$#"
+4
+[07:02:04 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] set --
+[07:02:08 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] set --echo "$#"[2P$3"$@"
+
+[07:02:19 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] echo "$@"[3Pset --echo "$#"[2P$3"$@"[2P$3"$#"
+0
+[07:02:25 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] printenv
+SHELL=/bin/bash
+SESSION_MANAGER=local/micron:@/tmp/.ICE-unix/1175,unix/micron:/tmp/.ICE-unix/1175
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LANGUAGE=en_GB:en
+LC_ADDRESS=en_US.UTF-8
+GNOME_SHELL_SESSION_MODE=ubuntu
+LC_NAME=en_US.UTF-8
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+LC_MONETARY=en_US.UTF-8
+SSH_AGENT_PID=1136
+GTK_MODULES=gail:atk-bridge
+DBUS_STARTER_BUS_TYPE=session
+PWD=/home/llewellyn/Desktop/Linux Programming I/2_Week10_1/wildcards
+XDG_SESSION_DESKTOP=ubuntu
+LOGNAME=llewellyn
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+HOME=/home/llewellyn
+USERNAME=llewellyn
+IM_CONFIG_PHASE=1
+LANG=en_GB.UTF-8
+LC_PAPER=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+VTE_VERSION=6003
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/6347df74_575c_4d54_b192_5e2927517eb3
+INVOCATION_ID=641ab716fe334ae2b6ce65b9ab3494ea
+MANAGERPID=910
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+LC_IDENTIFICATION=en_US.UTF-8
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=llewellyn
+GNOME_TERMINAL_SERVICE=:1.73
+DISPLAY=:0
+SHLVL=2
+LC_TELEPHONE=en_US.UTF-8
+QT_IM_MODULE=ibus
+LC_MEASUREMENT=en_US.UTF-8
+PAPERSIZE=letter
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e647075f9e70ee9cf2b5ec415fa8a070
+XDG_RUNTIME_DIR=/run/user/1000
+PS1=[\t \w] 
+LC_TIME=en_US.UTF-8
+JOURNAL_STREAM=9:26661
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+PATH=/home/llewellyn:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e647075f9e70ee9cf2b5ec415fa8a070
+LC_NUMERIC=en_US.UTF-8
+_=/usr/bin/printenv
+OLDPWD=/home/llewellyn/Desktop/Linux Programming I/2_Week10_1
+[07:02:34 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] CITY="Windhoek"
+[07:02:52 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] export CITY
+[07:03:03 ~/Desktop/Linux Programming I/2_Week10_1/wildcards] exit
+exit
+
+Script done on 2020-11-09 07:03:51+02:00 [COMMAND_EXIT_CODE="0"]
