@@ -1,0 +1,91 @@
+Script started on 2020-12-07 06:17:57+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="130" LINES="27"]
+]2; ~/Champlain/C/2_Week13_1[32;1m[0m2_Week13_1[0m » exit./add.sh 3 64.2r[K[K[5@foodmenu[C[C[C[Cmchecker[C[C[C[C[8Pls -la./mchecker.sh 
+Llewellyn, You have new mail
+Llewellyn, You have new mail
+^C
+]2; ~/Champlain/C/2_Week13_1[32;1m[0m2_Week13_1[0m » ./mchecker.sh exit[K./add.sh 3 64.2r[K[K[5@foodmenu[C[C[C[C
+My name is Llewellyn
+Today is Monday 7 Dec 2020
+Welcome to the Café Prestige
+
+Here is our menu for the day.
+1) Steak and potatoes
+2) Fish and chips
+3) Soup and salad
+4) Done
+Please make a selection: 6
+Error select option 1..4
+Please make a selection: 1
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Stick to your ribs
+Watch your cholesterol.
+Enjoy your meal.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Would you like another?
+1) Steak and potatoes
+2) Fish and chips
+3) Soup and salad
+4) Done
+Please make a selection: 2
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+British are coming!
+Enjoy your meal.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Would you like another?
+1) Steak and potatoes
+2) Fish and chips
+3) Soup and salad
+4) Done
+Please make a selection: 3
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Health foods…
+Dieting is so boring.
+Enjoy your meal.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Would you like another?
+1) Steak and potatoes
+2) Fish and chips
+3) Soup and salad
+4) Done
+Please make a selection: 4
+
+Goodbye! Llewellyn
+
+]2; ~/Champlain/C/2_Week13_1[32;1m[0m2_Week13_1[0m » ./foodmenu.sh mchecker[C[C[C[Cexit[K./add.sh 3 64.2r[K[K[5@foodmenu[C[C[C[C[5Padd[C[C[C[C
+================================================================
+Error: Not enough arguments
+================================================================
+Usage: ./add.sh [OPTION...]
+
+Provide two numbers as arguments
+
+Example run:
+  ./add.sh 5 8
+The sum is 13
+===============================================================
+]2; ~/Champlain/C/2_Week13_1[32;1m[0m2_Week13_1[0m » ./add.sh [5@foodmenu[C[C[C[Cmchecker[C[C[C[Cexit[K./add.sh 3 64.2r[K
+================================================================
+Error: Not a number
+================================================================
+Usage: ./add.sh [OPTION...]
+
+Provide two numbers as arguments
+
+Example run:
+  ./add.sh 5 8
+The sum is 13
+===============================================================
+]2; ~/Champlain/C/2_Week13_1[32;1m[0m2_Week13_1[0m » ./add.sh 3 r[K[5@foodmenu[C[C[C[Cmchecker[C[C[C[Cexit[K./add.sh 3 64.2
+The sum is 67.2
+]2; ~/Champlain/C/2_Week13_1[32;1m[0m2_Week13_1[0m » ./add.sh 3 64.2[K342 64.34. 64.343 64.34
+The sum is 96.64
+]2; ~/Champlain/C/2_Week13_1[32;1m[0m2_Week13_1[0m » exit
+exit
+
+Script done on 2020-12-07 06:19:57+02:00 [COMMAND_EXIT_CODE="0"]
