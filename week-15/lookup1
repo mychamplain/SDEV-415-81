@@ -1,0 +1,35 @@
+#!/bin/bash
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+#  Champlain College SDEV-415-81
+#
+#  Linux/Unix Programming Week 14/15: Final Project  - (2020/12/18)
+#
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+#
+#  This script is to display datafile in sorted order using last names.
+#  The datafile has the following format:
+#     First Last Name:Phone Number:Address:Birth date:Salary
+#     Karen Evich:284-758-2857:23 Edgecliff Place, Lincoln, NB 92743:7/25/53:85100
+#
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+#
+#  Written by Llewellyn van der Merwe <llewellyn.vandermerw@mymail.champlain.edu>, December 2020
+#  Copyright (C) 2020. All Rights Reserved
+#  License GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
+#
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+# Display the sorted data as a table from file
+sort -k2 datafile | column -t -s :
+# above code explained:
+#   sort get the file content
+#   sort use space to detect columns
+#   sort use -k2 to identify last names
+#   sort by this 2nd column (last names)
+#  pipe pass data to next command
+#   column convert the data to formatted table
+#   column use the -t -s : to break up the columns
+#   column prints data to standard output.
+
+# display the number of lines/entries in the file
+echo -n "Entries: "; cat datafile | wc -l

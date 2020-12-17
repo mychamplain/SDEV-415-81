@@ -1,0 +1,225 @@
+Script started on 2020-12-19 05:45:36+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="146" LINES="34"]
+]2; ~/Champlain/C/2_Week15_1[32;1m[0m2_Week15_1[0m » ./loo[K[K[K[K[Kchmod +x lookup*
+]2; ~/Champlain/C/2_Week15_1[32;1m[0m2_Week15_1[0m » ./lookup1
+Steve Blenheim              238-923-7366   95 Latham Lane, Easton, PA 83755          11/12/56  20300
+Betty Boop                  245-836-8357   635 Cutesy Lane, Hollywood, CA 91464      6/23/23   14500
+Igor Chevsky                385-375-8395   3567 Populus Place, Caldwell, NJ 23875    6/18/68   23400
+Norma Corder                397-857-2735   74 Pine Street, Dearborn, MI 23874        3/28/45   245700
+Jennifer Cowan              548-834-2348   583 Laurel Ave., Kingsville, TX 83745     10/1/35   58900
+Jon DeLoach                 408-253-3122   123 Park St., San Jose, CA 04086          7/25/53   85100
+Karen Evich                 284-758-2857   23 Edgecliff Place, Lincoln, NB 92743     7/25/53   85100
+Fred Fardbarkle             674-843-1385   20 Parak Lane, Duluth, MN 23850           4/12/23   780900
+Lori Gortz                  327-832-5728   3465 Mirlo Street, Peabody, MA 34756      10/2/65   35200
+Paco Gutierrez              835-365-1284   454 Easy Street, Decatur, IL 75732        2/28/53   123500
+Ephram Hardy                293-259-5395   235 CarltonLane, Joliet, IL 73858         8/12/20   56700
+James Ikeda                 834-938-8376   23445 Aster Ave., Allentown, NJ 83745     12/1/38   45000
+iuytrertyu iuytrertyu nfdf  567890         rhjyt5678tgg fgh 7t , 7 t tf777           6/8/98    56789
+Barbara Kertz               385-573-8326   832 Ponce Drive, Gary, IN 83756           12/1/46   268500
+Lesley Kirstin              408-456-1234   4 Harvard Square, Boston, MA 02133        4/22/62   52600
+William Kopf                846-836-2837   6937 Ware Road, Milton, PA 93756          9/21/46   43500
+Sir Lancelot                837-835-8257   474 Camelot Boulevard, Bath, WY 28356     5/13/69   24500
+Mick man                    9990-990-990-  wer wrw, werwe, wwerw 990                 9/9/99    9980980
+Jesse Neal                  408-233-8971   45 Rose Terrace, San Francisco, CA 92303  2/3/36    25000
+Zippy Pinhead               834-823-8319   2356 Bizarro Ave., Farmount, IL 84357     1/1/67    89500
+Arthur Putie                923-835-8745   23 Wimp Lane, Kensington, DL 38758        8/31/69   126000
+Koos roos                   __             __                                        __        __
+Popeye Sailor               156-454-3322   945 Bluto Street, Anywhere, USA 29358     3/19/35   22350
+Jose Santiago               385-898-8357   38 Fife Way, Abilene, TX 39673            1/5/58    95600
+Tommy Savage                408-724-0140   1222 Oxbow Court, Sunnyvale, CA 94087     5/19/66   34200
+Yukio Takeshida             387-827-1095   13 Uno Lane, Ashville, NC 23556           7/1/29    57000
+Vinh Tranh                  438-910-7449   8235 Maple Street, Wilmington, VM 29085   9/23/63   68900
+Entries: 27
+]2; ~/Champlain/C/2_Week15_1[32;1m[0m2_Week15_1[0m » ./lookup2
+[1;36m███████████████████████████████████████████████████ ADD ENTRY? ███[0m
+[0;33mWould you like to add an entry to the datafile? [y][0m
+[1;31mTo Quit! [q][0m
+ [y/q]: y
+
+[1;36m██████████████████████████████████████████████████ First Last Name ███[0m
+[0;33mPlease enter full name.[0m
+[0;33mNAME FORMAT ==> [first last middle][0m
+ [ENTER]: Jso  ason McF Groff    off
+
+[1;36m█████████████████████████████████████████████████████ Phone Number ███[0m
+[0;33mPlease enter phone number.[0m
+[0;33mNUMBER FORMAT ==> [000-000-0000][0m
+ [ENTER]: 123-2234-8489
+
+[1;36m██████████████████████████████████████████████████████████ Address ███[0m
+[0;33mPlease enter address.[0m
+[0;33mADDRESS FORMAT ==> [23 Edgecliff Place, Lincoln, NB 92743][0m
+ [ENTER]: 21 Dail This, Where, PA 89212
+
+[1;36m███████████████████████████████████████████████████████ Birth date ███[0m
+[0;33mPlease enter birth date.[0m
+[0;33mDATE FORMAT ==> [7/25/1953][0m
+ [ENTER]: 9/11/1982
+
+[1;36m███████████████████████████████████████████████████████ Salary ███[0m
+[0;33mPlease enter salary.[0m
+[0;33mSALARY FORMAT ==> [85100][0m
+ [ENTER]: 90000
+[1;32m████████████████████████████████████████████████ ADDED SUCCESS ███[0m
+[1;32mEntry was successfully added![0m
+on-line=>19  Jason McGoff  123-2234-8489  21 Dail This, Where, PA 89212  9/11/1982  90000
+[1;36m███████████████████████████████████████████████████ ADD ENTRY? ███[0m
+[0;33mWould you like to add an entry to the datafile? [y][0m
+[1;31mTo Quit! [q][0m
+ [y/q]: q
+]2; ~/Champlain/C/2_Week15_1[32;1m[0m2_Week15_1[0m » ./lookup3
+1) Add entry
+2) Delete entry
+3) View entry
+4) View all entries
+5) Exit
+Please make a selection: 1
+
+[1;36m██████████████████████████████████████████████████ First Last Name ███[0m
+[0;33mPlease enter full name.[0m
+[0;33mNAME FORMAT ==> [first last middle][0m
+ [ENTER]: Llewellyn van der Merwe
+
+[1;36m█████████████████████████████████████████████████████ Phone Number ███[0m
+[0;33mPlease enter phone number.[0m
+[0;33mNUMBER FORMAT ==> [000-000-0000][0m
+ [ENTER]: 812-487-7770
+
+[1;36m██████████████████████████████████████████████████████████ Address ███[0m
+[0;33mPlease enter address.[0m
+[0;33mADDRESS FORMAT ==> [23 Edgecliff Place, Lincoln, NB 92743][0m
+ [ENTER]: 18 Gos Park, Winh dhk oek, NA 10026
+
+[1;36m███████████████████████████████████████████████████████ Birth date ███[0m
+[0;33mPlease enter birth date.[0m
+[0;33mDATE FORMAT ==> [7/25/1953][0m
+ [ENTER]: 3/12/58
+
+[1;36m███████████████████████████████████████████████████████ Salary ███[0m
+[0;33mPlease enter salary.[0m
+[0;33mSALARY FORMAT ==> [85100][0m
+ [ENTER]: 1234567890
+[1;32m████████████████████████████████████████████████ ADDED SUCCESS ███[0m
+[1;32mEntry was successfully added![0m
+on-line=>29  Llewellyn van der Merwe  812-487-7770  18 Gos Park, Windhoek, NA 10026  3/12/58  1234567890
+[1;36m████████████████████████████████████████████████████ CONTINUE? ███[0m
+[0;33mWould you like to see the menu again?[0m
+ [y/N]: y
+
+1) Add entry
+2) Delete entry
+3) View entry
+4) View all
+5) Exit
+Please make a selection: 3
+[1;36m█████████████████████████████████████████████████ ENTRY SEARCH ███[0m
+[0;33mPlease enter any details of entry you would like to view.[0m
+ [ENTER]: Json
+[1;31m███████████████████████████████████████████████████ NOT FOUND! ███[0m
+[1;31mNo entry (Json) found![0m
+[1;36m████████████████████████████████████████████████████ CONTINUE? ███[0m
+[0;33mWould you like to see the menu again?[0m
+ [y/N]: y
+
+1) Add entry
+2) Delete entry
+3) View entry
+4) View all
+5) Exit
+Please make a selection: 3
+[1;36m█████████████████████████████████████████████████ ENTRY SEARCH ███[0m
+[0;33mPlease enter any details of entry you would like to view.[0m
+ [ENTER]: Jason
+[1;32m███████████████████████████████████████████████████████ FOUND! ███[0m
+[1;32mEntry was found![0m
+Jason McGoff  123-2234-8489  21 Dail This, Where, PA 89212  9/11/1982  90000
+[1;36m████████████████████████████████████████████████████ CONTINUE? ███[0m
+[0;33mWould you like to see the menu again?[0m
+ [y/N]: y
+
+1) Add entry
+2) Delete entry
+3) View entry
+4) View all
+5) Exit
+Please make a selection: 4
+Steve Blenheim              238-923-7366   95 Latham Lane, Easton, PA 83755          11/12/56   20300
+Betty Boop                  245-836-8357   635 Cutesy Lane, Hollywood, CA 91464      6/23/23    14500
+Igor Chevsky                385-375-8395   3567 Populus Place, Caldwell, NJ 23875    6/18/68    23400
+Norma Corder                397-857-2735   74 Pine Street, Dearborn, MI 23874        3/28/45    245700
+Jennifer Cowan              548-834-2348   583 Laurel Ave., Kingsville, TX 83745     10/1/35    58900
+Jon DeLoach                 408-253-3122   123 Park St., San Jose, CA 04086          7/25/53    85100
+Karen Evich                 284-758-2857   23 Edgecliff Place, Lincoln, NB 92743     7/25/53    85100
+Fred Fardbarkle             674-843-1385   20 Parak Lane, Duluth, MN 23850           4/12/23    780900
+Lori Gortz                  327-832-5728   3465 Mirlo Street, Peabody, MA 34756      10/2/65    35200
+Paco Gutierrez              835-365-1284   454 Easy Street, Decatur, IL 75732        2/28/53    123500
+Ephram Hardy                293-259-5395   235 CarltonLane, Joliet, IL 73858         8/12/20    56700
+James Ikeda                 834-938-8376   23445 Aster Ave., Allentown, NJ 83745     12/1/38    45000
+iuytrertyu iuytrertyu nfdf  567890         rhjyt5678tgg fgh 7t , 7 t tf777           6/8/98     56789
+Barbara Kertz               385-573-8326   832 Ponce Drive, Gary, IN 83756           12/1/46    268500
+Lesley Kirstin              408-456-1234   4 Harvard Square, Boston, MA 02133        4/22/62    52600
+William Kopf                846-836-2837   6937 Ware Road, Milton, PA 93756          9/21/46    43500
+Sir Lancelot                837-835-8257   474 Camelot Boulevard, Bath, WY 28356     5/13/69    24500
+Mick man                    9990-990-990-  wer wrw, werwe, wwerw 990                 9/9/99     9980980
+Jason McGoff                123-2234-8489  21 Dail This, Where, PA 89212             9/11/1982  90000
+Jesse Neal                  408-233-8971   45 Rose Terrace, San Francisco, CA 92303  2/3/36     25000
+Zippy Pinhead               834-823-8319   2356 Bizarro Ave., Farmount, IL 84357     1/1/67     89500
+Arthur Putie                923-835-8745   23 Wimp Lane, Kensington, DL 38758        8/31/69    126000
+Koos roos                   __             __                                        __         __
+Popeye Sailor               156-454-3322   945 Bluto Street, Anywhere, USA 29358     3/19/35    22350
+Jose Santiago               385-898-8357   38 Fife Way, Abilene, TX 39673            1/5/58     95600
+Tommy Savage                408-724-0140   1222 Oxbow Court, Sunnyvale, CA 94087     5/19/66    34200
+Yukio Takeshida             387-827-1095   13 Uno Lane, Ashville, NC 23556           7/1/29     57000
+Vinh Tranh                  438-910-7449   8235 Maple Street, Wilmington, VM 29085   9/23/63    68900
+Llewellyn van der Merwe     812-487-7770   18 Gos Park, Windhoek, NA 10026           3/12/58    1234567890
+
+Entries: 29
+
+[1;36m████████████████████████████████████████████████████ CONTINUE? ███[0m
+[0;33mWould you like to see the menu again?[0m
+ [y/N]: y
+
+1) Add entry
+2) Delete entry
+3) View entry
+4) View all
+5) Exit
+Please make a selection: 2
+[1;36m██████████████████████████████████████████████ ENTRY TO DELETE ███[0m
+[0;33mPlease enter full name of the entry you would like to delete.[0m
+[0;33mNAME FORMAT ==> [first last middle][0m
+ [ENTER]: Llewe
+[1;31m███████████████████████████████████████████████████ NOT FOUND! ███[0m
+[1;31mNo entry (Llewe) found![0m
+[1;36m████████████████████████████████████████████████████ CONTINUE? ███[0m
+[0;33mWould you like to see the menu again?[0m
+ [y/N]: y
+
+1) Add entry
+2) Delete entry
+3) View entry
+4) View all
+5) Exit
+Please make a selection: 2
+[1;36m██████████████████████████████████████████████ ENTRY TO DELETE ███[0m
+[0;33mPlease enter full name of the entry you would like to delete.[0m
+[0;33mNAME FORMAT ==> [first last middle][0m
+ [ENTER]: Jason McGoff
+[1;32m███████████████████████████████████████████████ ENTRY DELETED! ███[0m
+[1;32mEntry was found and deleted![0m
+[1;36m████████████████████████████████████████████████████ CONTINUE? ███[0m
+[0;33mWould you like to see the menu again?[0m
+ [y/N]: y
+
+1) Add entry
+2) Delete entry
+3) View entry
+4) View all
+5) Exit
+Please make a selection: 5
+
+[1;32mGoodbye! Llewellyn[0m
+
+]2; ~/Champlain/C/2_Week15_1[32;1m[0m2_Week15_1[0m » exit
+exit
+
+Script done on 2020-12-19 05:51:18+02:00 [COMMAND_EXIT_CODE="0"]
